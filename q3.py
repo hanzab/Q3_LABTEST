@@ -9,9 +9,6 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 
 import streamlit as st
-import torch
-from torchvision import models, transforms
-import torch.nn.functional as F
 from PIL import Image
 import requests
 import pandas as pd
